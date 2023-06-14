@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 7">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/GetAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/VerifyUserNameIsCorrect.java" afterDir="false" />
+    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 8">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/ClassNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeWork1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/Homework2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/IdLocatorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/LinkTextAndPartialLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/NameDuplicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/NameLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/TagName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/AbsoluteXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Attribute_Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Contains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_EndsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_MultipleAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_ParentToChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Siblings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_StartsWith.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/VerifyUrlChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/VerifyUrlChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +75,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.VerifyUserNameIsCorrect">
-    <configuration name="CallWebDriverFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day02_webdriver_basics.CallWebDriverFactory" />
+  <component name="RunManager" selected="Application.Css_Siblings">
+    <configuration name="Css_Contains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_Contains" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day02_webdriver_basics.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day03_webelement_intro.GetAttribute" />
+    <configuration name="Css_EndsWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_EndsWith" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUrlChanged" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day03_webelement_intro.VerifyUrlChanged" />
+    <configuration name="Css_MultipleAttributeValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_MultipleAttributeValue" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUrlIsNotChanged" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day03_webelement_intro.VerifyUrlIsNotChanged" />
+    <configuration name="Css_ParentToChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_ParentToChild" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyUserNameIsCorrect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day03_webelement_intro.VerifyUserNameIsCorrect" />
+    <configuration name="Css_Siblings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_Siblings" />
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day03_webelement_intro.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VerifyUserNameIsCorrect" />
-        <item itemvalue="Application.GetAttribute" />
-        <item itemvalue="Application.VerifyUrlChanged" />
-        <item itemvalue="Application.VerifyUrlIsNotChanged" />
-        <item itemvalue="Application.CallWebDriverFactory" />
+        <item itemvalue="Application.Css_Siblings" />
+        <item itemvalue="Application.Css_ParentToChild" />
+        <item itemvalue="Application.Css_MultipleAttributeValue" />
+        <item itemvalue="Application.Css_Contains" />
+        <item itemvalue="Application.Css_EndsWith" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686245561039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7 8">
+      <created>1686254701505</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686254701505</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="7 6" />
     <MESSAGE value="7 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 7" />
+    <MESSAGE value="7 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -184,6 +215,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day03_webelement_intro/VerifyUserNameIsCorrect.java</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Index.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
