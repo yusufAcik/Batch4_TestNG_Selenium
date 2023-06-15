@@ -4,34 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 8">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/ClassNameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/HomeWork1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/Homework2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/IdLocatorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/LinkTextAndPartialLinkText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/NameDuplicateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/NameLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/TagName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/AbsoluteXpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day05_xpath/RelativeXpath5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Attribute_Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Contains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_EndsWith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Id.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_MultipleAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_ParentToChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Siblings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_StartsWith.java" afterDir="false" />
+    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 9">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day04_basic_locators/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day7_testNG_Intro/BeforeAfterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day7_testNG_Intro/FirstTestNGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day7_testNG_Intro/TestNGAnnotationsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/WebDriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,79 +54,102 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Css_Siblings">
-    <configuration name="Css_Contains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_Contains" />
+  <component name="RunManager" selected="TestNG.TestNGAnnotationsDemo.test3">
+    <configuration name="TestNGANnotationsDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day7_testNG_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro.TestNGANnotationsDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Css_EndsWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_EndsWith" />
+    <configuration name="TestNGAnnotationsDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day7_testNG_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro.TestNGAnnotationsDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Css_MultipleAttributeValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_MultipleAttributeValue" />
+    <configuration name="TestNGAnnotationsDemo.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day7_testNG_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro.TestNGAnnotationsDemo" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Css_ParentToChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_ParentToChild" />
+    <configuration name="TestNGAnnotationsDemo.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day7_testNG_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro.TestNGAnnotationsDemo" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Css_Siblings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day06_CSS.Css_Siblings" />
+    <configuration name="TestNGAnnotationsDemo.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day06_CSS.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day7_testNG_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day7_testNG_Intro.TestNGAnnotationsDemo" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Css_Siblings" />
-        <item itemvalue="Application.Css_ParentToChild" />
-        <item itemvalue="Application.Css_MultipleAttributeValue" />
-        <item itemvalue="Application.Css_Contains" />
-        <item itemvalue="Application.Css_EndsWith" />
+        <item itemvalue="TestNG.TestNGAnnotationsDemo.test3" />
+        <item itemvalue="TestNG.TestNGAnnotationsDemo" />
+        <item itemvalue="TestNG.TestNGAnnotationsDemo.test2" />
+        <item itemvalue="TestNG.TestNGAnnotationsDemo.test1" />
+        <item itemvalue="TestNG.TestNGANnotationsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686254701505</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="7 9">
+      <created>1686770999535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686770999535</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +215,8 @@
     <MESSAGE value="7 6" />
     <MESSAGE value="7 7" />
     <MESSAGE value="7 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 8" />
+    <MESSAGE value="7 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
