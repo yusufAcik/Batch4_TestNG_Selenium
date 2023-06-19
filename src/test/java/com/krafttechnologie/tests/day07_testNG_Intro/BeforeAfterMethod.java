@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day7_testNG_Intro;
+package com.krafttechnologie.tests.day07_testNG_Intro;
 
 import org.testng.annotations.*;
 
@@ -9,17 +9,17 @@ public class BeforeAfterMethod {
         System.out.println("*************before method***************");
         System.out.println("Webdriver, opening browser");
     }
-    @Test
+    @Test (priority = 2)
     public  void test1(){
         System.out.println("First test case");
     }
 
     //@Test yada @Ignore ignore daha kullanılışlı
-    @Test
+    @Test (priority = 3)
     public  void test2(){
         System.out.println("second test case");
     }
-    @Test
+    @Test (priority = 1)
     public  void test3(){
         System.out.println("third test case");
     }

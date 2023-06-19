@@ -1,4 +1,4 @@
-package com.krafttechnologie.tests.day7_testNG_Intro;
+package com.krafttechnologie.tests.day07_testNG_Intro;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
