@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="6 15">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/AttributeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/CheckBoxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/DisabledElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/DisplayedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day08_typeOfWebElements/RadioButtonTest.java" afterDir="false" />
+    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="6 19">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day09_findElements_dropDowns/DropDownWithSelectTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day09_findElements_dropDowns/DropDownWithoutSelectTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day09_findElements_dropDowns/ListOfElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multiplewindows_iframe/HTMLPopUps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multiplewindows_iframe/IFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multiplewindows_iframe/JSPopUps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multiplewindows_iframe/MultipleWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day10_alerts_multiplewindows_iframe/Nested_iFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ExplicitWaitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ImplicitlyWaitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ThreadSleepExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day7_testNG_Intro/BeforeAfterMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day07_testNG_Intro/BeforeAfterMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day7_testNG_Intro/FirstTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day07_testNG_Intro/FirstTestNGTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day7_testNG_Intro/TestNGAnnotationsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day07_testNG_Intro/TestNGAnnotationsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,17 +60,53 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.DisplayedDemo.displayedTest">
-    <configuration name="CheckBoxDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExplicitWaitExample.explicitWaitTest2">
+    <configuration name="ExplicitWaitExample.explicitWaitExampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day08_typeOfWebElements.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements.CheckBoxDemo" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample" />
+      <option name="METHOD_NAME" value="explicitWaitExampleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExplicitWaitExample.explicitWaitTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ExplicitWaitExample" />
+      <option name="METHOD_NAME" value="explicitWaitTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplicitlyWaitExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ImplicitlyWaitExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -75,17 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoxDemo.checkBoxDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ImplicitlyWaitExample.implicitlyWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day08_typeOfWebElements.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements.CheckBoxDemo" />
-      <option name="METHOD_NAME" value="checkBoxDemoTest" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ImplicitlyWaitExample" />
+      <option name="METHOD_NAME" value="implicitlyWait" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,53 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisabledElement.disabledElementTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadSleepExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day08_typeOfWebElements.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day11_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements.DisabledElement" />
-      <option name="METHOD_NAME" value="disabledElementTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DisplayedDemo.displayedTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day08_typeOfWebElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements.DisplayedDemo" />
-      <option name="METHOD_NAME" value="displayedTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioButtonTest.checkBoxIsSelected" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Batch4_TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day08_typeOfWebElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day08_typeOfWebElements.RadioButtonTest" />
-      <option name="METHOD_NAME" value="checkBoxIsSelected" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day11_waits" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day11_waits.ThreadSleepExample" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DisplayedDemo.displayedTest" />
-        <item itemvalue="TestNG.CheckBoxDemo.checkBoxDemoTest" />
-        <item itemvalue="TestNG.CheckBoxDemo" />
-        <item itemvalue="TestNG.DisabledElement.disabledElementTest" />
-        <item itemvalue="TestNG.RadioButtonTest.checkBoxIsSelected" />
+        <item itemvalue="TestNG.ExplicitWaitExample.explicitWaitTest2" />
+        <item itemvalue="TestNG.ExplicitWaitExample.explicitWaitExampleTest" />
+        <item itemvalue="TestNG.ImplicitlyWaitExample.implicitlyWait" />
+        <item itemvalue="TestNG.ImplicitlyWaitExample" />
+        <item itemvalue="TestNG.ThreadSleepExample.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686864645368</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="6 19">
+      <created>1687209385581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687209385581</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +238,8 @@
     <MESSAGE value="7 8" />
     <MESSAGE value="7 9" />
     <MESSAGE value="6 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 15" />
+    <MESSAGE value="6 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -242,6 +253,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day06_CSS/Css_Index.java</url>
           <line>19</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day11_waits/ExplicitWaitExample.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
