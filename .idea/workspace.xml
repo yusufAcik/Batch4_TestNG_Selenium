@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="6 26">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/ActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/JavaScriptExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day12_action_JS_FileUpload/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day13_WebTables/WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Selenium File Upload.txt" afterDir="false" />
+    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 3">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day13_WebTables/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day13_WebTables/WebTables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +61,18 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Batch4_TestNG_Selenium\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WebTables.getSingleCellInOneRow">
-    <configuration name="WebTables.getAllCellOfFirstRow" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SingletonTest.test1">
+    <configuration name="PropertiesTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_WebTables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day14_properties_singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_WebTables.WebTables" />
-      <option name="METHOD_NAME" value="getAllCellOfFirstRow" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.PropertiesTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -79,17 +80,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.getAllHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SingletonTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_WebTables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day14_properties_singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_WebTables.WebTables" />
-      <option name="METHOD_NAME" value="getAllHeaders" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.getRow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.getSingleCellInOneRow2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_WebTables" />
       <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_WebTables.WebTables" />
-      <option name="METHOD_NAME" value="getRow" />
+      <option name="METHOD_NAME" value="getSingleCellInOneRow2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.getSingleCellInOneRow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.printAllCellsByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_WebTables" />
       <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_WebTables.WebTables" />
-      <option name="METHOD_NAME" value="getSingleCellInOneRow" />
+      <option name="METHOD_NAME" value="printAllCellsByIndex" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.printTableSize" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +144,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_WebTables" />
       <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_WebTables.WebTables" />
-      <option name="METHOD_NAME" value="printTableSize" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WebTables.getSingleCellInOneRow" />
-        <item itemvalue="TestNG.WebTables.getAllCellOfFirstRow" />
-        <item itemvalue="TestNG.WebTables.getRow" />
-        <item itemvalue="TestNG.WebTables.printTableSize" />
-        <item itemvalue="TestNG.WebTables.getAllHeaders" />
+        <item itemvalue="TestNG.SingletonTest.test1" />
+        <item itemvalue="TestNG.PropertiesTest.test1" />
+        <item itemvalue="TestNG.WebTables.test" />
+        <item itemvalue="TestNG.WebTables.printAllCellsByIndex" />
+        <item itemvalue="TestNG.WebTables.getSingleCellInOneRow2" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687729447967</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="7 3">
+      <created>1688412932315</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688412932315</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +256,8 @@
     <MESSAGE value="6 15" />
     <MESSAGE value="6 19" />
     <MESSAGE value="6 26" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 26" />
+    <MESSAGE value="7 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
