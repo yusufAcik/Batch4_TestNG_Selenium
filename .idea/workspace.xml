@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 3">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/PropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/Driver.java" afterDir="false" />
+    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 6">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/NegativeLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/PositiveLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day13_WebTables/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day13_WebTables/WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/SingletonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +61,8 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Batch4_TestNG_Selenium\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SingletonTest.test1">
-    <configuration name="PropertiesTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.NegativeLoginTest.wrongUserNameTest">
+    <configuration name="LoginTest.anotherLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +71,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.PropertiesTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.LoginTest" />
+      <option name="METHOD_NAME" value="anotherLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -80,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +89,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.LoginTest" />
+      <option name="METHOD_NAME" value="positiveLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -98,17 +98,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.getSingleCellInOneRow2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeLoginTest.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_WebTables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_WebTables.WebTables" />
-      <option name="METHOD_NAME" value="getSingleCellInOneRow2" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.NegativeLoginTest" />
+      <option name="METHOD_NAME" value="wrongPasswordTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,17 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.printAllCellsByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeLoginTest.wrongUserNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_WebTables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_WebTables.WebTables" />
-      <option name="METHOD_NAME" value="printAllCellsByIndex" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.NegativeLoginTest" />
+      <option name="METHOD_NAME" value="wrongUserNameTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,17 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveLoginTest.loginTest_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day13_WebTables.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day13_WebTables" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day13_WebTables.WebTables" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.PositiveLoginTest" />
+      <option name="METHOD_NAME" value="loginTest_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SingletonTest.test1" />
-        <item itemvalue="TestNG.PropertiesTest.test1" />
-        <item itemvalue="TestNG.WebTables.test" />
-        <item itemvalue="TestNG.WebTables.printAllCellsByIndex" />
-        <item itemvalue="TestNG.WebTables.getSingleCellInOneRow2" />
+        <item itemvalue="TestNG.NegativeLoginTest.wrongUserNameTest" />
+        <item itemvalue="TestNG.NegativeLoginTest.wrongPasswordTest" />
+        <item itemvalue="TestNG.PositiveLoginTest.loginTest_1" />
+        <item itemvalue="TestNG.LoginTest.anotherLoginTest" />
+        <item itemvalue="TestNG.LoginTest.positiveLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688412932315</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="7 6">
+      <created>1688673619969</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688673619969</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +256,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7 6" />
     <MESSAGE value="7 7" />
     <MESSAGE value="7 8" />
     <MESSAGE value="7 9" />
@@ -257,7 +263,8 @@
     <MESSAGE value="6 19" />
     <MESSAGE value="6 26" />
     <MESSAGE value="7 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 3" />
+    <MESSAGE value="7 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
