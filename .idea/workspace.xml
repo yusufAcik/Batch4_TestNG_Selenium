@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 6">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/NegativeLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/PositiveLoginTest.java" afterDir="false" />
+    <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 7">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day14_properties_singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/NegativeLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/NegativeLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Batch4_TestNG_Selenium\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NegativeLoginTest.wrongUserNameTest">
+  <component name="RunManager" selected="TestNG.NegativeLoginTest.listOfWebElement">
     <configuration name="LoginTest.anotherLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
@@ -80,17 +76,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeLoginTest.listOfWebElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day14_properties_singleton.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day14_properties_singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day14_properties_singleton.LoginTest" />
-      <option name="METHOD_NAME" value="positiveLoginTest" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.NegativeLoginTest" />
+      <option name="METHOD_NAME" value="listOfWebElement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NegativeLoginTest.listOfWebElement" />
         <item itemvalue="TestNG.NegativeLoginTest.wrongUserNameTest" />
         <item itemvalue="TestNG.NegativeLoginTest.wrongPasswordTest" />
         <item itemvalue="TestNG.PositiveLoginTest.loginTest_1" />
         <item itemvalue="TestNG.LoginTest.anotherLoginTest" />
-        <item itemvalue="TestNG.LoginTest.positiveLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688673619969</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="7 7">
+      <created>1688759095982</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688759095982</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +259,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7 7" />
     <MESSAGE value="7 8" />
     <MESSAGE value="7 9" />
     <MESSAGE value="6 15" />
@@ -264,7 +266,8 @@
     <MESSAGE value="6 26" />
     <MESSAGE value="7 3" />
     <MESSAGE value="7 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 6" />
+    <MESSAGE value="7 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

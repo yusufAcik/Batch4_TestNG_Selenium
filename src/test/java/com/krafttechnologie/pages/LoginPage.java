@@ -1,16 +1,16 @@
 package com.krafttechnologie.pages;
 
-import com.krafttechnologie.utilities.Driver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.FindBys;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
-    public LoginPage(){
+    /* public LoginPage(){
         PageFactory.initElements(Driver.get(),this);
-    }
-
+    }  --> extend ettiği klasın constructoru olduğu için buna gerek kalmadı
+*/
     @FindBy(css ="#email")
     public WebElement emailInputBox;
 
@@ -25,4 +25,19 @@ public class LoginPage {
 
     @FindBy(xpath = "//div[contains(text(),'Email')]")
     public WebElement usernameErrorMessage;
+
+    // AND logic
+    @FindBys({
+            @FindBy(css = "#email"),
+            @FindBy(name="email")
+    })
+    public WebElement emailInputBoxWithFindBys;
+
+    // OR logic
+    @FindAll({
+            @FindBy(id="email"),
+            @FindBy(name="email")
+
+    })
+    public WebElement getEmailInputBoxWithFindAll;
 }

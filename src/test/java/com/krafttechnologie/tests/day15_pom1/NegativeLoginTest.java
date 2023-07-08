@@ -3,8 +3,13 @@ package com.krafttechnologie.tests.day15_pom1;
 import com.krafttechnologie.pages.LoginPage;
 import com.krafttechnologie.tests.TestBase;
 import com.krafttechnologie.utilities.ConfigurationReader;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class NegativeLoginTest extends TestBase {
 
@@ -58,6 +63,39 @@ public class NegativeLoginTest extends TestBase {
         String actual = loginPage.usernameErrorMessage.getText();
 
         Assert.assertEquals(actual,expected);
+    }
+
+    /**
+     go to kraft login page
+     login with Mike
+     Verify that uptitles are following
+     Dashboard
+     Developers
+     Components
+     Forms
+     JavaScript
+     mike
+     */
+    @Test
+    public void listOfWebElement(){
+        driver.get(ConfigurationReader.get("url"));
+
+        LoginPage loginPage = new LoginPage();
+
+        loginPage.emailInputBox.sendKeys(ConfigurationReader.get("userEmail"));
+        loginPage.passwordInputBox.sendKeys(ConfigurationReader.get("userPassword"));
+        loginPage.loginButton.click();
+
+        List<WebElement> upTitles = loginPage.upTitles;
+        List<String> actualList = new ArrayList<>();
+        for (WebElement upTitle : upTitles) {
+            actualList.add(upTitle.getText());
+        }
+        List<String> expectedList = new ArrayList<>(
+                Arrays.asList("Dashboard","Developers","Components","Forms","JavaScript","mike"));
+
+        Assert.assertEquals(actualList,expectedList);
+
 
     }
 
