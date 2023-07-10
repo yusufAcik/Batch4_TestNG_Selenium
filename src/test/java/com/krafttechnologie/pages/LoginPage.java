@@ -1,5 +1,6 @@
 package com.krafttechnologie.pages;
 
+import com.krafttechnologie.utilities.ConfigurationReader;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -39,5 +40,17 @@ public class LoginPage extends BasePage {
             @FindBy(name="email")
 
     })
-    public WebElement getEmailInputBoxWithFindAll;
+    public WebElement emailInputBoxWithFindAll;
+
+    public void login(String userEmail,String password){
+        emailInputBox.sendKeys(userEmail);
+        passwordInputBox.sendKeys(password);
+        loginButton.click();
+    }
+
+    public void login(){
+        emailInputBox.sendKeys(ConfigurationReader.get("userEmail"));
+        passwordInputBox.sendKeys(ConfigurationReader.get("userPassword"));
+        loginButton.click();
+    }
 }

@@ -1,6 +1,8 @@
 package com.krafttechnologie.pages;
 
+import com.krafttechnologie.utilities.BrowserUtils;
 import com.krafttechnologie.utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -15,4 +17,22 @@ public abstract class BasePage  {
 
     @FindBy(xpath = "//li[contains(@class,'nav-item dropdown')]")
     public List <WebElement> upTitles;
+
+    public void navigateToModule(String menu){
+
+        String locator = "//span[.='"+menu+"']";
+        Driver.get().findElement(By.xpath(locator)).click();
+    }
+
+    public void navigateToModule(String tab,String module){
+        String locator = "//span[.='"+tab+"']";
+        Driver.get().findElement(By.xpath(locator)).click();
+
+        BrowserUtils.waitFor(2);
+
+        String locator2 = "//span[.='"+module+"']";
+        WebElement moduleElement = Driver.get().findElement(By.xpath(locator2));
+        BrowserUtils.clickWithJS(moduleElement);
+
+    }
 }

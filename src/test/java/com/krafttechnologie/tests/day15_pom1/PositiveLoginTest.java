@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import javax.xml.transform.sax.SAXResult;
+
 public class PositiveLoginTest extends TestBase {
 
     /**
@@ -46,6 +48,49 @@ public class PositiveLoginTest extends TestBase {
         String actual = driver.getCurrentUrl();
 
         Assert.assertEquals(actual,expected);
+    }
+
+    @Test
+    public void loginTest_2(){
+        /**
+         go to kraft login page
+         login as Mike
+         use login(String username, String password)
+         validate that you are on the dashboard with url
+         */
+
+        driver.get(ConfigurationReader.get("url"));
+        LoginPage loginPage=new LoginPage();
+
+        loginPage.login(ConfigurationReader.get("userEmail"),ConfigurationReader.get("userPassword"));
+
+        String expected = "https://www.krafttechexlab.com/index";
+        String actual = driver.getCurrentUrl();
+
+        Assert.assertEquals(actual,expected);
+
+    }
+
+    /**
+     go to kraft login page
+     login as Mike
+     use login()
+     validate that you are on the dashboard with url
+     */
+    @Test
+    public void loginTest_3(){
+        driver.get(ConfigurationReader.get("url"));
+
+        LoginPage loginPage = new LoginPage();
+        // call login() method
+        loginPage.login();
+
+        //assertion
+        String expected = "https://www.krafttechexlab.com/index";
+        String actual = driver.getCurrentUrl();
+
+        Assert.assertEquals(actual,expected);
+
     }
 
 }
