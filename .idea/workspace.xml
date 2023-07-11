@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e9166b8-d385-48dc-8bb5-4b42da2353ec" name="Changes" comment="7 8">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day16_pom2/DashboardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/DashboardTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/EditProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/UserProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day15_pom1/PositiveLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/EditProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttechnologie/tests/day17_pom3/EditProfileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Batch4_TestNG_Selenium\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DashboardTest2.verifyList">
+  <component name="RunManager" selected="TestNG.EditProfileTest.editProfileTest">
     <configuration name="DashboardTest2.verifyList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
@@ -134,17 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveLoginTest.loginTest_3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EditProfileTest.editProfileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krafttechnologie.tests.day15_pom1.*" />
+          <option name="PATTERN" value="com.krafttechnologie.tests.day17_pom3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day15_pom1" />
-      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day15_pom1.PositiveLoginTest" />
-      <option name="METHOD_NAME" value="loginTest_3" />
+      <option name="PACKAGE_NAME" value="com.krafttechnologie.tests.day17_pom3" />
+      <option name="MAIN_CLASS_NAME" value="com.krafttechnologie.tests.day17_pom3.EditProfileTest" />
+      <option name="METHOD_NAME" value="editProfileTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EditProfileTest.editProfileTest" />
         <item itemvalue="TestNG.DashboardTest2.verifyList" />
         <item itemvalue="TestNG.DashboardTest.navigateMenu_2" />
         <item itemvalue="TestNG.DashboardTest.navigateMenu_1" />
         <item itemvalue="TestNG.DashboardTest.basicDashBoardMenuTest" />
-        <item itemvalue="TestNG.PositiveLoginTest.loginTest_3" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688847104367</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="7 8">
+      <created>1689020558395</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689020558395</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

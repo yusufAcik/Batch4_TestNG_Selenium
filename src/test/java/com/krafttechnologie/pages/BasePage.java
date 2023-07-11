@@ -18,6 +18,9 @@ public abstract class BasePage  {
     @FindBy(xpath = "//li[contains(@class,'nav-item dropdown')]")
     public List <WebElement> upTitles;
 
+    @FindBy(css = "[class='d-none d-md-block dropdown-toggle ps-2']")
+    public WebElement userAccountName;
+
     public void navigateToModule(String menu){
 
         String locator = "//span[.='"+menu+"']";
