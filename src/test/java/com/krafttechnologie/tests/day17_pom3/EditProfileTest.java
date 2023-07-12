@@ -8,6 +8,7 @@ import com.krafttechnologie.tests.TestBase;
 import com.krafttechnologie.utilities.BrowserUtils;
 import com.krafttechnologie.utilities.ConfigurationReader;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -78,11 +79,14 @@ public class EditProfileTest extends TestBase {
         editProfilePage.skillsInputBox.clear();
         editProfilePage.skillsInputBox.sendKeys("Java,Selenium, TestNG");
         BrowserUtils.waitFor(1);
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeScript("window.scrollBy(0,500)");
+        WebElement saveChangeButton = editProfilePage.saveChangeButton;
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].scrollIntoView(true);"
+                + "arguments[0].click()",saveChangeButton);
+
         BrowserUtils.waitFor(1);
 
-        editProfilePage.saveChangeButton.click();
+
 
         String expectedMessage="Profile Updated";
        // String  actualMessage = userProfilePage.updateMessage.getText();
