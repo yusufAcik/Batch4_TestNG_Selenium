@@ -39,7 +39,7 @@ public class DashboardTest2 extends TestBase {
         expectedList.add("Components");
         expectedList.add("Forms");
         expectedList.add("JavaScript");
-        expectedList.add("mike");
+        expectedList.add("jack");
 
         List<String> actualList = new ArrayList<>();
 

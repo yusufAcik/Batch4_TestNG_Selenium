@@ -92,7 +92,7 @@ public class NegativeLoginTest extends TestBase {
             actualList.add(upTitle.getText());
         }
         List<String> expectedList = new ArrayList<>(
-                Arrays.asList("Dashboard","Developers","Components","Forms","JavaScript","mike"));
+                Arrays.asList("Dashboard","Developers","Components","Forms","JavaScript","jack"));
 
         Assert.assertEquals(actualList,expectedList);
 

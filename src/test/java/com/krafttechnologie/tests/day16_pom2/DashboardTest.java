@@ -45,7 +45,7 @@ public class DashboardTest extends TestBase {
         List<String> actualList = BrowserUtils.getElementsText(dashboardPage.upTitles);
 
         List<String> expectedList = new ArrayList<>(
-                Arrays.asList("Dashboard","Developers","Components","Forms","JavaScript","mike"));
+                Arrays.asList("Dashboard","Developers","Components","Forms","JavaScript","jack"));
 
         // second verification
         Assert.assertEquals(actualList,expectedList);
