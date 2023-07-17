@@ -38,4 +38,8 @@ public abstract class BasePage  {
         BrowserUtils.clickWithJS(moduleElement);
 
     }
+
+    public String getUserAccountName(){
+        return userAccountName.getText();
+    }
 }

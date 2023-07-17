@@ -33,6 +33,11 @@ public class EditProfilePage extends BasePage{
         select.selectByVisibleText(jobOption);
     }
 
+    public String getSelectedJob(){
+        Select select = new Select(jobInputBox);
+        return select.getFirstSelectedOption().getText();
+
+    }
 
 
 }
