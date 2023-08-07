@@ -6,6 +6,7 @@ import com.krafttechnologie.utilities.ConfigurationReader;
 import com.krafttechnologie.utilities.ExcelUtil;
 import org.apache.commons.math3.stat.interval.ConfidenceInterval;
 import org.testng.Assert;
+import org.testng.annotations.AfterGroups;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -35,6 +36,8 @@ public class DataProvider_LoginTest extends TestBase {
         String expected=name;
 
         Assert.assertEquals(actual,expected);
+
+
 
 
 
